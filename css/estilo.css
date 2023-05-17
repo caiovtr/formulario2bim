@@ -13,7 +13,7 @@ body {
 }
 
 :root {
-    --primary: #2c74e2;
+    --primary: #2B75E2;
     --altura-main: calc(100vh - 15rem);
 }
 
@@ -49,7 +49,6 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 
@@ -69,6 +68,10 @@ table {
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
 thead,
 tfoot {
     font-weight: bolder;
@@ -81,11 +84,10 @@ tbody {
 table tr th,
 table tr td {
     border: 0.1rem solid BLACK;
-    padding: 0.1rem;
+    padding: 0.45rem;
 
 }
 
-/*Form*/
 input {
     height: 1.5rem;
 }
@@ -137,6 +139,10 @@ footer {
     text-align: center;
     display: flex;
     align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p{
@@ -206,7 +212,16 @@ main#perguntas{
     font-size: xx-large;
 }
 
+#perguntas{
+    display: flex;
+    height:calc (100vh)-(5rem);
+    flex-direction: column;
+}
+
+section a{
+    color: rgb(0, 0, 0);
+}
+
 #perguntas h1{
     color: #000;
 }
-
